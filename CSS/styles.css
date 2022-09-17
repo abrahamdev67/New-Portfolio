@@ -22,6 +22,9 @@ p1 {
     padding: 20px;
     border: solid 10px;
     margin: 10px;
+    position: absolute;
+    left: 510px;
+    top: 510px;
 }
     
 #middle-container {
@@ -31,6 +34,9 @@ p1 {
     padding: 20px;
     border: solid 10px;
     margin: 10px;
+    position: absolute;
+    left: 250px;
+    top: 250px;
 }
 
 #bottom-container {
@@ -39,6 +45,8 @@ p1 {
     width: 200px;
     padding: 20px;
     border: solid 10px;
-    margin: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
