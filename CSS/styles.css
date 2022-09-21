@@ -50,3 +50,13 @@ span {
     left: 250px;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+
+.skills-icon {
+    width: 25%;
+    margin: auto;
+    padding: auto;
+}
