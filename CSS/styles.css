@@ -4,14 +4,25 @@ body {
     font-family: 'merriweather' sans-serif;
 }
 
-#top-container {
+.top-container {
     background-color: #E4F9F5;
+    height: 800px;
+}
+
+.background-image {
+    background-image: url("./flat-adventure-background-with-mountains_23-2149045825.jpg");
+    position: relative;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .mountain {
-    position: relative;
-    top: 105px;
-    width: 52%;
+    width: 100%;
+    position: center;
+    padding: 0;
+
 }
 
 h1 {
@@ -39,10 +50,9 @@ span {
     margin: 10px;
     position: relative;
 }
-
 .bottom-cloud {
     position: absolute;
-    left: 370px;
+    left: 470px;
 }
 
 .top-cloud {
