@@ -6,23 +6,7 @@ body {
 
 .top-container {
     background-color: #E4F9F5;
-    height: 800px;
-}
-
-.background-image {
-    background-image: url("./flat-adventure-background-with-mountains_23-2149045825.jpg");
-    position: relative;
-    height: calc(100vh - 80px);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-
-.mountain {
-    width: 100%;
-    position: center;
-    padding: 0;
-
+    height: 920px;
 }
 
 h1 {
@@ -45,11 +29,6 @@ span {
     text-decoration: underline;
 }
 
-#top-container {
-    padding: 100px;
-    margin: 10px;
-    position: relative;
-}
 .bottom-cloud {
     position: absolute;
     left: 470px;
@@ -58,13 +37,39 @@ span {
 .top-cloud {
     position: relative;
     left: 250px;
+    margin-top: 80px;
+}
+
+.mountain {
+    position: center;
+    width: 53%;
+    padding: 0;
+}
+
+.profile-picture {
+    margin-top: 50px;
+}
+
+.skills {
+    margin: 50px auto 50px auto;
+    text-align: left;
+    width: 50%;   
+}
+
+.coding {
+    float: left;
+    width: 25%;
+}
+
+.intro {
+    font-size: ;
 }
 
 .skill-row {
     width: 50%;
     margin: 50px auto 50px auto;
 }
-
+    
 .skills-icon {
     width: 25%;
     margin: auto;
